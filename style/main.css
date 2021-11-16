@@ -1,0 +1,142 @@
+:root{                          /* root para declarar variáveis,usado para as cores padrões aqui e facilitar troca de cores  */
+    --vermelho:#E50914;
+    --preta:#141414;
+}
+
+*{                     /* resetar css padrão dos navegadores */                   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   /* border-box adapta os elementos(imagem/texto) dentro da div */ 
+}
+
+/* elementos base */
+body{
+    color: #fff;
+    background: var(--preta);
+    font-family: 'calibri', Times, serif;
+}
+
+header .container{     
+
+    display: flex;
+    flex-direction: row;     
+    align-items: center;
+    justify-content: space-between;    /* elementos na horizontal */
+}                                      
+
+header .logo {                        
+    margin: 5px;
+    color: var(--vermelho);
+    font-family:'calibri light', Times ;
+    font-size: 25px;
+}
+
+header nav a{
+    text-decoration: none;               
+    color: #AAA;
+    margin-right: 25px;
+}
+
+header nav a:hover{
+    color: #fff;   
+}
+
+
+/* serie principal */
+.serie-principal{
+    font-size: 25px;
+    background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/capa-rider01.jpg');
+
+    height: 1200px;
+    background-size:cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items:flex-start ;
+}
+
+.serie-principal .sinopse{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: justify;
+}
+
+.serie-principal .titulo{
+    margin-top: 15%;
+    /*font-size: 40px; */
+    /*font-family: calibri bold, Helvetica, sans-serif; */
+}
+
+.botao{
+    background-color: rgba(0,0,0,.30);
+    border: none;
+    color: white;
+    border-radius: 3%;
+
+    padding: 15px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .4s ease all;
+
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 7px;
+}
+
+.botao .link {
+    text-decoration: none;
+}
+
+a:visited {
+    color:white;
+}
+
+a:hover {
+    color: black;
+    
+}    
+
+.container{
+    margin-left: 20px;
+}
+
+.serie-principal .container{
+    width: 100%;
+}
+
+.serie-principal .sinopse{
+    width: 85%;
+}
+
+.box-series{
+    height: 100%;
+    width: 100%;
+    display: block;
+    border-radius: 1%;
+    
+}
+
+.carrosel-series{
+    margin-top: 10px;
+}
+
+
+.enunciado{
+    margin-bottom: 10px;
+    font-size: 25px;    
+}
+
+.enunciado-1{
+    margin-bottom: 10px;
+    font-size: 25px; 
+}
+
