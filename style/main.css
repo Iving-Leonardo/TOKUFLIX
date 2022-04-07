@@ -45,7 +45,7 @@ header nav a:hover{
 /* serie principal */
 .serie-principal{
     font-size: 25px;
-    background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("img/capa-rider01.jpg");
+    background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("/img/capa-rider01.jpg");
 
     height: 1200px;
     background-size:cover;
